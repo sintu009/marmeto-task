@@ -1,0 +1,88 @@
+.container {
+    display: grid;
+    grid-template-rows: 65% auto;
+    height: 90vh;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.box {
+    display: grid;
+    grid-template-columns: 35% auto;
+    gap: 1rem;
+    height: 100%;
+}
+
+.subBox1 {
+    background-color: pink;
+    margin: 10px;
+    position: relative;
+}
+
+.subBox2 {
+    display: grid;
+    grid-template-rows: 50% auto;
+    gap: 1rem;
+    height: 100%;
+}
+
+.sub1 {
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 1rem;
+}
+
+.sub {
+    display: grid;
+    grid-template-columns: 45% auto;
+    gap: 1rem;
+}
+
+.miniSub1 {
+    background-color: darkgray;
+    margin: 10px;
+    position: relative;
+}
+
+.miniSub2 {
+    background-color: firebrick;
+    margin: 10px;
+    position: relative;
+
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: 20% 40% auto;
+    gap: 1rem;
+}
+
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.subBox1-img {
+    object-fit: fill;
+    object-position: center center;
+}
+
+.subBox1-img {
+    height: 70%;
+}
