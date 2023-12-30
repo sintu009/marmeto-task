@@ -4,6 +4,7 @@
     height: 90vh;
     gap: 1rem;
     margin: 2rem;
+    position: relative;
 }
 
 h1 {
@@ -78,11 +79,19 @@ h1 {
 }
 
 
-.subBox1-img {
-    object-fit: fill;
-    object-position: center center;
-}
+/* */
 
 .subBox1-img {
-    height: 70%;
+    height: 100%;
+
+}
+
+
+.bottom-right {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: 500;
 }
